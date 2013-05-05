@@ -1,0 +1,105 @@
+<html>
+<head>
+	<title>Stephanie Sit</title>
+	<link href="/static/css/style.css" rel="stylesheet">
+	<script type="text/javascript" src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.9.0.js"></script>
+    <script type="text/javascript" src="/static/js/import.js"></script>
+
+</head>
+<body>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	<!-- Navbar
+	================================================== -->
+	<div class="navbar navbar-inverse navbar-fixed-top">
+		<div class="navbar-inner">
+			<div class="container">
+				<a class="brand" href="">steph sit</a>
+			</div>
+		</div>
+	</div>
+	<div class="jumbotron masthead">
+		<div class="container">
+			<h1>
+				Stephanie Sit
+			</h1>
+			<p>
+				A technical leader skilled in working through multiple projects and with different stakeholders. Proven ability to take nascent ideas into scalable business solutions.
+			</p><a href="#myModal" role="button" class="btn btn-primary btn-large" data-toggle="modal">Contact Me</a>
+			<div class="btn-group btn-large">
+				<a class="btn dropdown-toggle btn-large" data-toggle="dropdown" href="#">Find Me Online</a>
+				<ul class="dropdown-menu">
+					<li>
+						<a href='http://github.com/stephsit'>GitHub</a>
+					</li>
+					<li>
+						<a href='http://www.linkedin.com/profile/view?id=121544039'>LinkedIn</a>
+					</li>
+				</ul>
+			</div><a href="#login" role="button" class="btn btn-warning btn-large" data-toggle="modal">Login</a>
+		</div>
+	</div>
+	<div class='bs-docs-social'>
+		<div class="container">
+			<div id="fb-root"></div><script type="text/javascript">
+	(function(d, s, id) {
+			var js, fjs = d.getElementsByTagName(s)[0];
+			if (d.getElementById(id)) return;
+			js = d.createElement(s); js.id = id;
+			js.src = "//connect.facebook.net/en_US/all.js#xfbml=1&appId=333209730099859";
+			fjs.parentNode.insertBefore(js, fjs);
+			(document, 'script', 'facebook-jssdk'));
+			</script>
+			<div style='fbwrap'>
+				<div class="fb-like" data-href="http://stephsit.com" data-send="true" data-width="750" data-show-faces="false"></div><iframe src="http://ghbtns.com/github-btn.html?user=stephsit&amp;type=follow" allowtransparency="true" frameborder="0" scrolling="0" width="132" height="20"></iframe>
+			</div>
+		</div>
+	</div>
+	<div class='container'>
+		<!-- Button to trigger modal -->
+	</div><!-- Modal -->
+	<div id="login" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<form action='./login' method='post'>
+			<div class="modal-header">
+				<h3 id="myModalLabel">
+					Platform Login
+				</h3>
+			</div>
+			<div class="modal-body">
+				<div class="control-group">
+					<label class="control-label" for="inputEmail">Email</label>
+					<div class="controls">
+						<input type="text" id="inputEmail" name='login' placeholder="Email">
+					</div>
+				</div>
+				<div class="control-group">
+					<label class="control-label" for="inputPassword">Password</label>
+					<div class="controls">
+						<input type="password" name='password' id="inputPassword" placeholder="Password">
+					</div>
+				</div>
+			</div>
+			<div class="modal-footer">
+				<input type='submit' value='Login' class='slogin btn btn-primary'> <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+			</div>
+		</form>
+	</div><!-- Modal -->
+	<div id="myModal" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		<div class="modal-header">
+			<button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+			<h3 id="myModalLabel">
+				Get In Touch
+			</h3>
+		</div>
+		<div class="modal-body">
+			<p>
+				You can get in touch with me via email steph at stephsit dot com
+			</p>
+		</div>
+		<div class="modal-footer">
+			<button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+		</div>
+	</div>
+
+
+</body>
+</html>
